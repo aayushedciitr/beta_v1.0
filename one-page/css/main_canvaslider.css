@@ -1,0 +1,21 @@
+.underline{padding-bottom: 15px;
+    border-bottom: 1px solid red;}
+
+ 
+@media screen and (min-width: 768px) {
+   #tab-1 img[src="images/tedlogoiit.png"]{
+	max-width:150px;float:right;
+}
+   #tab-2 img[src="images/E summit logo.png"]{
+	max-width:150px;float:right;
+}
+}
+
+@media screen and (max-width: 767px) {
+   #tab-1 img[src="images/tedlogoiit.png"]{
+	max-width:150px;float:left;
+}
+  #tab-2 img[src="images/E summit logo.png"]{
+	max-width:150px;float:left;
+}
+}
