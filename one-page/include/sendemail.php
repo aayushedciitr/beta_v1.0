@@ -5,8 +5,8 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email' => 'mrankitraj@gmail.com', // Your Email Address
+				'name' => 'Ankit' // Your Name
 			);
 
 // Form Processing Messages
@@ -16,9 +16,6 @@ $message_success = 'We have <strong>successfully</strong> received your Message 
 $recaptcha_secret = ''; // Your reCaptcha Secret
 
 $mail = new PHPMailer();
-
-// If you intend you use SMTP, add your SMTP Code after this Line
-
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	if( $_POST['template-contactform-email'] != '' ) {
